@@ -1,6 +1,6 @@
 // Default variables
 html {
-	--base-font-size: 20px;
+	--base-font-size: 14px;
 }
 
 // Light default theme
@@ -10,12 +10,16 @@ body {
  	--bg-code: #fffbf3;
  	--body-color: #444;
  	--title-color: #111;
- 	--link-color: #6b17e6;
+ 	--link-color: #00a5f9;
  	--border-color:  rgba(0,0,0,.1);;
   --space: 3.5rem;
   --content-width: 860px;
   --header-height: 80px;
   --radius: 5px;
+  --header-links-space: 30px;
+  --big-font-size: 36px;
+  --banner-font-color: #fff;
+  --section-spacing: 40px;
 }
 
 // Make  things smaller for mobile

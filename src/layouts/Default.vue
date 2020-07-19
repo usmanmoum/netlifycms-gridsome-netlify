@@ -2,14 +2,10 @@
   <div id="app">
 
     <header class="header">
-      <div class="header__left">
-        <Logo v-if="showLogo" />
-      </div>
-
-      <div class="header__right">
-        <ToggleTheme />
-      </div>
+      <Navigation/>
     </header>
+
+    <Banner v-if="isHome"/>
 
     <main class="main">
       <slot/>
@@ -26,14 +22,18 @@
 <script>
 import Logo from '~/components/Logo.vue'
 import ToggleTheme from '~/components/ToggleTheme.vue'
+import Navigation from '~/components/Navigation.vue'
+import Banner from '~/components/Banner.vue'
 
 export default {
   props: {
-    showLogo: { default: true }
+    isHome: { default: false }
   },
   components: {
     Logo,
-    ToggleTheme
+    ToggleTheme,
+    Navigation,
+    Banner
   }
 }
 </script>

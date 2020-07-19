@@ -5,7 +5,7 @@
     </div>
     <div class="post-card__content">
       <h2 class="post-card__title" v-html="post.title" />
-      <p class="post-card__description" v-html="post.description" />
+      <p class="post-card__description" :inner-html.prop="post.content | truncate(250)" />
 
       <PostMeta class="post-card__meta" :post="post" />
       <PostTags class="post-card__tags" :post="post" />
@@ -22,9 +22,20 @@ import PostTags from '~/components/PostTags'
 export default {
   components: {
     PostMeta,
-    PostTags
+    PostTags,
   },
   props: ['post'],
+  filters: {
+    truncate: function (value, length) {
+      if (!value) return "";
+      value = value.toString();
+      if (value.length > length) {
+        return value.substring(0, length) + "...";
+      } else {
+        return value;
+      }
+    }
+  }
 }
 </script>
 
