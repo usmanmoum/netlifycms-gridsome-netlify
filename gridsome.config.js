@@ -5,12 +5,13 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Netlify CMS Gridsome starter template',
+  siteName: 'United Professional Associations (UNIPRO)',
   siteDescription: 'A simple, hackable & minimalistic starter for Gridsome that uses Netlify CMS for content.',
 
   templates: {
-    Post: '/:title',
-    Tag: '/tag/:id'
+    Entrepreneurship: '/activities/entrepreneurship/:year-:month-:day-:title',
+    Education: '/activities/education/:year-:month-:day-:title',
+    General: '/activities/general/:year-:month-:day-:title'
   },
 
   plugins: [
@@ -18,17 +19,26 @@ module.exports = {
       // Create posts from markdown files
       use: '@gridsome/source-filesystem',
       options: {
-        typeName: 'Post',
-        path: 'content/posts/*.md',
-        refs: {
-          // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
-          tags: {
-            typeName: 'Tag',
-            create: true
-          }
-        }
+        typeName: 'Entrepreneurship',
+        path: 'content/entrepreneurship/*.md'
       }
-    }
+    },
+    {
+      // Create posts from markdown files
+      use: '@gridsome/source-filesystem',
+      options: {
+        typeName: 'Education',
+        path: 'content/education/*.md'
+      }
+    },
+    {
+      // Create posts from markdown files
+      use: '@gridsome/source-filesystem',
+      options: {
+        typeName: 'General',
+        path: 'content/general/*.md'
+      }
+    },
   ],
 
   transformers: {
