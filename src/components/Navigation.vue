@@ -51,6 +51,7 @@ header {
       float: left;
       padding: var(--header-links-space);
       position: relative;
+      font-size: var(--light-medium-font-size);
 
       ul {
         display: none;
