@@ -3,7 +3,7 @@
   <section class="banner-wrapper">
   	<section class="banner">
   		<h2>United Professionals Association</h2>
-  		<h4 class="sub-title">Driven by Scholars; Guided by Professionals</h4>
+  		<h4 class="sub-title">Guided by Scholars. Driven by Professionals.</h4>
 		  <div class="details"> This is a test </div>
 		</section>
 	</section>
@@ -12,18 +12,21 @@
 
 <style lang="scss">
   .banner-wrapper {
-    background: var(--link-color);
-    padding: 90px;
+    background: url('/images/uploads/united-pro.jpeg') top center;
+    padding: 10%;
     text-align: center;
-    width: 100%;
     color: var(--banner-font-color);
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
 
     .banner {
-      padding: var(--section-spacing);
+      margin: 0 auto;
     }
 
     h2 {
-      font-size: 300%;
+      font-size: var(--banner-font-size);
       color: var(--banner-font-color);
     }
 

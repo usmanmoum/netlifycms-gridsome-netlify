@@ -18,8 +18,11 @@ body {
   --radius: 5px;
   --header-links-space: 30px;
   --big-font-size: 36px;
+  --light-medium-font-size: 16px;
   --banner-font-color: #fff;
   --section-spacing: 40px;
+  --banner-font-size: 400%;
+  --section-font-size: 150%
 }
 
 // Make  things smaller for mobile
@@ -30,6 +33,8 @@ body {
 	body {
 		--space: 1.5rem;
 		--header-height: 60px;
+		--banner-font-size: 300%;
+		--section-font-size: 125%
 	}
 }
 

@@ -12,8 +12,7 @@
     </main>
 
     <footer class="footer">
-      <span class="footer__copyright">Copyright © {{ new Date().getFullYear() }}. </span>
-      <span class="footer__links">Powered by <a href="//www.suits.at"> SUITS </a></span>
+      <span class="footer__copyright">Copyright © {{ new Date().getFullYear() }}. Unipro</span>
     </footer>
 
   </div>
@@ -46,7 +45,7 @@ export default {
   min-height: var(--header-height);
   padding: 0 calc(var(--space) / 2);
   top:0;
-  z-index: 10;
+  z-index: 10;  
 
   &__left,
   &__right {
@@ -63,7 +62,6 @@ export default {
 
 .main {
   margin: 0 auto;
-  padding: 1.5vw 15px 0;
 }
 
 .footer {
@@ -73,6 +71,7 @@ export default {
   padding: calc(var(--space) / 2);
   text-align: center;
   font-size: .8em;
+  background: var(--bg-content-color);
 
   > span {
     margin: 0 .35em;
