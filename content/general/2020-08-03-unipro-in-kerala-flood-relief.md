@@ -3,6 +3,8 @@ title: UNIPRO IN KERALA FLOOD RELIEF
 date: 2018-09-02T08:08:00.000Z
 published: true
 ---
+![Kerala Flood Relief Support By Unipro](/images/uploads/img-20180901-wa0012-150x150.jpg "Kerala Flood Relief Support By Unipro")
+
 <!--StartFragment-->
 
 For the first time in the history, Kerala witnessed it’s worst calamity with more than 370 people lives lost and more than 1 million people displaced in 3000+ flood relief camps. Being aware about the extent of damages caused by this unprecedented flood havoc , UNIPRO initiated flood relief and rehabilitation support at very early stage onward and channelizing funds through UNWO and local body NGO MMA.
