@@ -61,7 +61,7 @@ export default {
 }
 
 .main {
-  margin: 0 auto;
+  margin: var(--space) auto;
 }
 
 .footer {

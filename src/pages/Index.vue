@@ -48,7 +48,7 @@
         <div class="colored-line-left"></div>
 
         <article>
-          <i>The Messenger of Allah Sallallahu ‘alaihi wasallam said, *’The believers, in their love, mutual kindness, and close ties, are like one body; when any part complains, the whole body responds to it with wakefulness and fever.’ – Muslim</i>
+          <blockquote>The Messenger of Allah Sallallahu ‘alaihi wasallam said, *’The believers, in their love, mutual kindness, and close ties, are like one body; when any part complains, the whole body responds to it with wakefulness and fever.’ – Muslim</blockquote>
           <br><br>
           UNIPRO is an independent humanitarian and development non-profit organization driven by 600+ like minded professionals. Inspired by Islamic faith and guided by our values, we believe that people with wealth have a duty to those less fortunate— regardless of race, belief, political affiliation and gender.
           <br><br>
@@ -129,11 +129,32 @@ export default {
 
 <style lang="scss">
   .projects {
-    padding: var(--section-spacing);
+    padding: 0 var(--section-spacing) 0;
 
-    &:nth-child(2) {
-      background: #ededed;
+    h2 {
+      margin-top: 0;
     }
+
+    blockquote {
+      background: var(--bg-content-color);
+      padding: var(--section-spacing);
+      border-radius: 15px;
+      border-color: var(--link-color);
+      border-right: 4px solid var(--link-color);
+      font-style: italic;
+    }
+
+    ul {
+      margin-left: 20px;
+      
+      li {
+        list-style-type: disc;
+      }
+    }
+
+    /*&:nth-child(1) {
+      
+    }*/
 
     article {
       margin-top: var(--section-spacing);

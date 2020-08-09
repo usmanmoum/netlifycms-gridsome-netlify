@@ -1,6 +1,6 @@
 // Default variables
 html {
-	--base-font-size: 14px;
+	--base-font-size: 16px;
 }
 
 // Light default theme
@@ -12,17 +12,18 @@ body {
  	--title-color: #111;
  	--link-color: #00a5f9;
  	--border-color:  rgba(0,0,0,.1);;
-  --space: 3.5rem;
-  --content-width: 860px;
-  --header-height: 80px;
-  --radius: 5px;
-  --header-links-space: 30px;
-  --big-font-size: 36px;
-  --light-medium-font-size: 16px;
-  --banner-font-color: #fff;
-  --section-spacing: 40px;
-  --banner-font-size: 400%;
-  --section-font-size: 150%
+	--space: 3.5rem;
+	--content-width: 860px;
+	--header-height: 80px;
+	--radius: 5px;
+	--header-links-space: 30px;
+	--big-font-size: 36px;
+	--light-medium-font-size: 16px;
+	--banner-font-color: #fff;
+	--section-spacing: 40px;
+	--banner-font-size: 400%;
+	--section-font-size: 150%;
+	--even-section-bg-color: #0f2d44;
 }
 
 // Make  things smaller for mobile

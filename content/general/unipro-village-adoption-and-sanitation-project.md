@@ -2,6 +2,7 @@
 title: UNIPRO VILLAGE ADOPTION AND SANITATION PROJECT	
 date: 2016-10-02T14:30:15.000Z
 published: true
+cover_image: /images/uploads/sanity.jpg
 ---
 
 <p>The prophet(phuh) said,<br>

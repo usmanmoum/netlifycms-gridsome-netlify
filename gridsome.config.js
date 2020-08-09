@@ -9,9 +9,9 @@ module.exports = {
   siteDescription: 'A simple, hackable & minimalistic starter for Gridsome that uses Netlify CMS for content.',
 
   templates: {
-    Entrepreneurship: '/activities/entrepreneurship/:year-:month-:day-:title',
-    Education: '/activities/education/:year-:month-:day-:title',
-    General: '/activities/general/:year-:month-:day-:title'
+    Entrepreneurship: '/entrepreneurship/:year-:month-:day-:title',
+    Education: '/education/:year-:month-:day-:title',
+    General: '/general/:year-:month-:day-:title'
   },
 
   plugins: [

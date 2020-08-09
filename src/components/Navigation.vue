@@ -30,6 +30,7 @@ export default {
 
 header {
   background: var(--bg-content-color);
+  box-shadow: 1px 1px 5px 0 var(--border-color);
 }
 
 .nav-container {

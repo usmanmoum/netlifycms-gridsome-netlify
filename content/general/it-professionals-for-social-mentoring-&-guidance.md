@@ -2,7 +2,6 @@
 title: IT PROFESSIONALS FOR SOCIAL MENTORING & GUIDANCE	
 date: 2018-01-24T15:17:57.000Z
 published: true
-cover_image: '/uploads/test1.jpg'
 ---
 
 <p>Team Unipro invites all aspiring IT professionals for Social Mentoring &amp; Guidance program.</p>
