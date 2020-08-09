@@ -2,6 +2,8 @@
 title: Education Scholarship Information
 date: 2020-07-20T07:50:22.551Z
 published: true
+tags:
+  - scholarship
 cover_image: ""
 ---
 ![](/images/uploads/919d4f53-51ac-47eb-9bd2-92d3ce622798)
