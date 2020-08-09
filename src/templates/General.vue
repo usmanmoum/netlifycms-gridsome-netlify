@@ -21,6 +21,11 @@ query General ($id: ID!) {
     path
     date (format: "D. MMMM YYYY")
     timeToRead
+    tags {
+      id
+      title
+      path
+    }
     content
     cover_image
   }
