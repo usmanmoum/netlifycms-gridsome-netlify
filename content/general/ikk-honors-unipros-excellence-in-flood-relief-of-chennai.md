@@ -1,0 +1,11 @@
+---
+title: IKK HONORS UNIPRO’S EXCELLENCE IN FLOOD RELIEF OF CHENNAI	
+date: 2016-01-16T03:15:46.000Z
+published: true
+cover_image: /images/uploads/ikk-award.jpg
+---
+
+<p>IKK honors notorious efforts of UNIPRO in recent Chennai flood hit. It is very well known that UNIPRO made a gargantuan task of saving the lives of many victims during recent flood in  Chennai. In initial phase, UNIPRO involved in flood relief support along with IMCT by  distributing flood relief materials and by assisting medical camps. UNIPRO joins hands with UNWO in its second phase for the rehabilitation work in the outskirts of city and rural areas outside the city to ease permanent relief for the flood affected victims.</p>
+<p>IKK conducted an award giving ceremony at Preston International College in Alwarpet to honor the gorgeous efforts taken by all Muslim organizations in Chennai’s Flood which show casted the Humanity in detail to the whole world. TMMK Leader, Jawahirullah (MLA) and Sheik Abdul Salam madhani were among the notable celebrity who presented momento in the ceremony. About 100 Muslim organizations took part in it and by the grace of Allah, UNIPRO received a token of recognition from IKK for their extensive efforts in flood relief and rehabilitation work of Chennai.</p>
+<p>Our volunteers in UNIPRO believes that striving for the social causes even if it is of the size of atom Is only for the sake of Allah and expecting rewards from him in the Akhira. We consider this award as a desire to motivate us further to strive in the cause of Allah. It’s time to thank all donors for their supports through generous donations and motivating words. May Allah accept all our efforts.</p>
+<figure id="attachment_81" style="width: 225px" class="wp-caption alignnone"><img src="http://uni-pro.org/wp-content/uploads/2016/11/ikk-award-225x300.jpg" alt="IKK honours UNIPRO with this shield" width="225" height="300" class="size-medium wp-image-81" srcset="http://uni-pro.org/wp-content/uploads/2016/11/ikk-award-225x300.jpg 225w, http://uni-pro.org/wp-content/uploads/2016/11/ikk-award-768x1024.jpg 768w, http://uni-pro.org/wp-content/uploads/2016/11/ikk-award-624x832.jpg 624w, http://uni-pro.org/wp-content/uploads/2016/11/ikk-award.jpg 1200w" sizes="(max-width: 225px) 100vw, 225px"><figcaption class="wp-caption-text">IKK honours UNIPRO with this shield</figcaption></figure>

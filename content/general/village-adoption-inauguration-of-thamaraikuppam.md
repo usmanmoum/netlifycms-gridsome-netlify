@@ -2,6 +2,7 @@
 title: VILLAGE ADOPTION INAUGURATION OF THAMARAIKUPPAM
 date: 2016-04-18T14:12:19.000Z
 published: true
+cover_image: /images/uploads/adoption.jpg
 ---
 
 <p>As the prophet Muhammad(pbuh) advised his ummah to plant a sapling even if he is at the end of death as he will get reward from Allah(SWT) even for birds feeding from the tree and for a man shadowed under the tree, Tharbiya session was followed by planting ceremony where “VALARPIRAI” team from Hyundai Industries planted 70 saplings of various varieties like Pomegranate, Mango, Lemon, Rose,etc  across the village. Besides being saplings planted, Elumalai from Valarpirai Team has delivered a short speech about the importance of trees and keys to maintain them properly.</p>

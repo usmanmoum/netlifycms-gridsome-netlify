@@ -2,6 +2,7 @@
 title: UNIPRO’S NISWAN MADARASA INITIATIVE	
 date: 2016-10-02T14:33:40.000Z
 published: true
+cover_image: /images/uploads/niswan.jpg
 ---
 
 <p>The prophet Muhammad(peace be upon him) said “The whole world is a provision and the best object of benefit of the world is the pious woman”</p>
