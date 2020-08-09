@@ -1,6 +1,7 @@
 ---
 title: SUPER FAST 2015	
 date: 2015-06-22T02:49:49.000Z
+tags: ["10th"]
 published: true
 cover_image: /images/uploads/super-fast-2015.jpg
 ---

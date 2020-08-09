@@ -163,7 +163,7 @@ export default {
     }
 
     .post-card {
-      margin-right: 10px;
+      margin-right: var(--section-spacing);
     }
 
     .post-card:hover {

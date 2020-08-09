@@ -11,7 +11,8 @@ module.exports = {
   templates: {
     Entrepreneurship: '/entrepreneurship/:year-:month-:day-:title',
     Education: '/education/:year-:month-:day-:title',
-    General: '/general/:year-:month-:day-:title'
+    General: '/general/:year-:month-:day-:title',
+    Tag: '/tag/:id'
   },
 
   plugins: [
@@ -20,7 +21,14 @@ module.exports = {
       use: '@gridsome/source-filesystem',
       options: {
         typeName: 'Entrepreneurship',
-        path: 'content/entrepreneurship/*.md'
+        path: 'content/entrepreneurship/*.md',
+        refs: {
+          // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
+          tags: {
+            typeName: 'Tag',
+            create: true
+          }
+        }
       }
     },
     {
@@ -28,7 +36,14 @@ module.exports = {
       use: '@gridsome/source-filesystem',
       options: {
         typeName: 'Education',
-        path: 'content/education/*.md'
+        path: 'content/education/*.md',
+        refs: {
+          // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
+          tags: {
+            typeName: 'Tag',
+            create: true
+          }
+        }
       }
     },
     {
@@ -36,7 +51,14 @@ module.exports = {
       use: '@gridsome/source-filesystem',
       options: {
         typeName: 'General',
-        path: 'content/general/*.md'
+        path: 'content/general/*.md',
+        refs: {
+          // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
+          tags: {
+            typeName: 'Tag',
+            create: true
+          }
+        }
       }
     },
   ],
