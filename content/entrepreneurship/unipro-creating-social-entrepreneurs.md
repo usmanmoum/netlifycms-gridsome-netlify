@@ -2,7 +2,6 @@
 title: UNIPRO CREATING SOCIAL ENTREPRENEURS	
 date: 2018-01-18T03:53:29.000Z
 published: true
-tags: ["10th"]
 cover_image: '/uploads/test1.jpg'
 ---
 
