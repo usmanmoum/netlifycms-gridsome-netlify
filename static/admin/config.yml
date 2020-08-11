@@ -17,7 +17,7 @@ collections:
       - label: "Tags"
         name: "tags"
         widget: "list"
-        field: {label: Name, name: name, widget: string, default: "tag"}
+        field: {label: Name, name: name, widget: string}
       - {label: "Cover Image", name: "cover_image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
 
@@ -34,7 +34,7 @@ collections:
       - label: "Tags"
         name: "tags"
         widget: "list"
-        field: {label: Name, name: name, widget: string, default: "tag"}
+        field: {label: Name, name: name, widget: string}
       - {label: "Cover Image", name: "cover_image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
 
@@ -51,6 +51,6 @@ collections:
       - label: "Tags"
         name: "tags"
         widget: "list"
-        field: {label: Name, name: name, widget: string, default: "tag"}
+        field: {label: Name, name: name, widget: string}
       - {label: "Cover Image", name: "cover_image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
