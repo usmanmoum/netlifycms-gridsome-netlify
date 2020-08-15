@@ -25,6 +25,8 @@ export default {
   	color: currentColor!important; //Todo: remove important;
   	padding: .5em;
   	border-radius: var(--radius);
+    display: inline-block;
+    margin-bottom: 10px;
   }
 }
 </style>

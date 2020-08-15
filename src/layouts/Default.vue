@@ -62,6 +62,7 @@ export default {
 
 .main {
   margin: var(--space) auto;
+  min-height: 63.5vh;
 }
 
 .footer {

@@ -53,6 +53,10 @@ export default {
 
 .post {
 
+  li {
+    list-style-type: decimal;
+  }
+
   &__header {
     width: calc(100% + var(--space) * 2);
     margin-left: calc(var(--space) * -1);
