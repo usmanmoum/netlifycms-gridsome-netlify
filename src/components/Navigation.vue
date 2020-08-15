@@ -11,7 +11,7 @@
           </ul>
         </nav>
       </li>
-      <li><g-link to="/activities">Donate Here</g-link></li>
+      <li><g-link to="/donation">Donate Here</g-link></li>
     </ul>
   </nav> 
 </template>

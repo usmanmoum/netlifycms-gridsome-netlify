@@ -5,7 +5,9 @@
       <template v-if="displayInfo">
         <h2>United Professionals Association</h2>
         <h4 class="sub-title">Guided by Scholars. Driven by Professionals.</h4>
-        <div class="details"> This is a test </div>
+        <div class="details"> 
+          <button><g-link to="/donation">Donate Here!</g-link></button>
+        </div>
       </template>
 		</section>
 	</section>
@@ -19,12 +21,28 @@
     text-align: center;
     color: var(--banner-font-color);
     background-size: cover;
-    min-height: 100vh;
+    min-height: 65vh;
     display: flex;
     align-items: center;
 
     .banner {
       margin: 0 auto;
+
+      .details {
+
+        button {
+          background: var(--link-color);
+          border-radius: var(--radius);
+          border-color: var(--link-color);
+
+          a {
+            font-size: var(--banner-font-size);
+            padding: 10px;
+            color: var(--bg-content-color);
+            display: inline-block;
+          }
+        }
+      }
     }
 
     h2 {

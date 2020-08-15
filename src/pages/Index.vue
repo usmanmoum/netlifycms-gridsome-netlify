@@ -152,10 +152,6 @@ export default {
       }
     }
 
-    /*&:nth-child(1) {
-      
-    }*/
-
     article {
       margin-top: var(--section-spacing);
       margin-bottom: var(--section-spacing);
@@ -169,11 +165,5 @@ export default {
     .post-card:hover {
       border-bottom: 5px solid var(--link-color);
     }
-  }
-
-  .colored-line-left {
-    background: var(--link-color);
-    width:80px;
-    height: 10px;
   }
 </style>

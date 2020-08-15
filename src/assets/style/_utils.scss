@@ -5,3 +5,9 @@
 .space-bottom {
 	margin-bottom: var(--space);
 }
+
+.colored-line-left {
+	background: var(--link-color);
+	width:80px;
+	height: 10px;
+}
