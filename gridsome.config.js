@@ -6,7 +6,7 @@
 
 module.exports = {
   siteName: 'United Professional Associations (UNIPRO)',
-  siteDescription: 'A simple, hackable & minimalistic starter for Gridsome that uses Netlify CMS for content.',
+  siteDescription: 'UNIPRO is an independent humanitarian and development non-profit organization driven by 600+ like minded professionals. Inspired by Islamic faith and guided by our values, we believe that people with wealth have a duty to those less fortunate— regardless of race, belief, political affiliation and gender.',
 
   templates: {
     Entrepreneurship: '/entrepreneurship/:year-:month-:day-:title',

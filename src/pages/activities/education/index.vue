@@ -1,5 +1,6 @@
 <template>
   <Layout>
+    <Banner :class="'education'" :displayInfo="false"></Banner>
     <!-- List posts -->
     <div class="posts">
       <PostCard v-for="edge in $page.education.edges" :key="edge.node.id" :post="edge.node"/>
@@ -29,11 +30,13 @@ query {
 <script>
 import Author from '~/components/Author.vue'
 import PostCard from '~/components/PostCard.vue'
+import Banner from '~/components/Banner.vue'
 
 export default {
   components: {
     Author,
-    PostCard
+    PostCard,
+    Banner
   },
   metaInfo: {
     title: 'Education'
